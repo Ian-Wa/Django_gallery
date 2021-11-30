@@ -10,20 +10,20 @@
     {% if title %}
     <title> - {{title}}</title>
     {% else %}
-    <title> ArtGala </title>
+    <title> Photopia </title>
     {% endif %}
 
     {% block styles %}
-    {% bootstrap_css %}
-
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <style>
-        .navbar {
-            background-color: yellow;
-            border: none;
-            border-radius: 0%;
-        }
-    </style>
+     {% bootstrap_css %}
+  
+      <link rel="stylesheet" href="{% static 'css/style.css' %}">
+      <style>
+          .navbar {
+              background-color: yellow;
+              border: none;
+              border-radius: 0%;
+          }
+      </style>
     {% endblock %}
 
 </head>
