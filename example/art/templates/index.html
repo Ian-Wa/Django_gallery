@@ -16,7 +16,7 @@
 <div class="container-fluid">
     <hr />
     {% for img in images%}
-    <div class="col-lg-3">
+    <div class="col-lg-4">
         <a href="#{{img.id}}" data-toggle="modal" data-target="#{{img.id}}">
             <img src="{{img.image.url}}" class="img-responsive" alt="{{image.name}}" style="width:100%;width:100%">
             <h5 class="text-center">{{img.image_name}}</h5>
@@ -62,7 +62,7 @@
     </div>
     {%endfor%}
 </div>
-
+<hr>
 <footer class="footer">
     <p class="text-center">© Ian Wanjira 2021. All Rights Reserved</p>
 </footer>
