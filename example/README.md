@@ -23,7 +23,7 @@ To view the site [Click here.](https://gallery-art.herokuapp.com/)
 4. Virtual Environment(virtual)
 5. A text editor 
 
-## Development Installation
+##  Installation
 
 To get the code..
 
@@ -39,3 +39,13 @@ To get the code..
         * Note that you can exit the virtual environment by running the command **`deactivate`**
 4. Download the all dependencies in the requirements.txt using **`pip install -r requirements.txt`**
 5. Launch the application locally by running the command **`python manage.py runserver`** and copying the link given on the termnal on your browser.
+
+## Technology used
+
+* Python3.8
+* Django==3.2.9
+* Heroku
+* Html
+* Css
+* Javascript
+* Bootstrap3
