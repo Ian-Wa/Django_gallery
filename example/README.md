@@ -49,3 +49,11 @@ To get the code..
 * Css
 * Javascript
 * Bootstrap3
+
+## Known Bugs
+
+There are no known bugs currently but if you come across one feel free to contact me.
+
+## Contact
+
+For queries reach me through [Ian.wanjira@student.moringaschool.com](ian.wanjira@student.moringaschool.com)
