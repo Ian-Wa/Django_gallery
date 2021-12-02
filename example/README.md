@@ -22,3 +22,20 @@ To view the site [Click here.](https://gallery-art.herokuapp.com/)
 3. Pip
 4. Virtual Environment(virtual)
 5. A text editor 
+
+## Development Installation
+
+To get the code..
+
+1. Clone the repository:
+ `git clone  https://github.com/Ian-wa/Django_gallery.git`
+
+2. Move to the folder and install requirements
+ ` cd Django_gallery`
+ 3. In the projects root directory, install the virtualenv library using pip and create a virtual environment. Run the following commands respectively:
+    - **`pip install virtualenv`**
+    - **`virtualenv virtual`**
+    - **`source virtual/bin/activate`**
+        * Note that you can exit the virtual environment by running the command **`deactivate`**
+4. Download the all dependencies in the requirements.txt using **`pip install -r requirements.txt`**
+5. Launch the application locally by running the command **`python manage.py runserver`** and copying the link given on the termnal on your browser.
